@@ -1,0 +1,14 @@
+# Managed by Composer
+/bin/*
+!bin/console
+!bin/symfony_requirements
+
+# PHPUnit
+/app/phpunit.xml
+/phpunit.xml
+
+/vendor/
+/var/test-coverage/
+.php_cs.cache
+composer.lock
+.idea

@@ -3,7 +3,7 @@
     "description": "Command Line Interface application for the famous ibudasov/poker",
     "require": {
         "php": ">=7.2",
-        "ibudasov/poker": "^0.0.1",
+        "ibudasov/poker": "^0.0.2",
       "ext-mbstring": "*"
     },
     "autoload": {

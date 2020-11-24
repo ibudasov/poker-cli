@@ -26,11 +26,11 @@ final class Poker
 
     function showMeWhatYouGot(): void
     {
-        foreach ($this->input->getHandHandsInGame() as $hand) {
-            $this->output->println(
-                (string)$this->handRanker->rankTheHand($hand)
-            );
-        }
+        $hands = $this->input->getHandHandsInGame();
+
+        $this->output->outputMultipleHands(
+            ...$this->handRanker->rankMultipleHands(...$hands)
+        );
     }
 
 }

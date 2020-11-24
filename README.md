@@ -9,6 +9,8 @@ Domain layer is not present in the codebase, because it naturally belongs to the
 
 # 💻 Usage
 
+ `composer install` — installs the app 
+
  `composer run example` — runs example, based on `/exampleInputFile.txt`
  
  `php index.php --inputFile /path/to/file/input.txt` — this is how possible to specify custom `input.txt`

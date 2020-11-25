@@ -19,4 +19,4 @@ Domain layer is not present in the codebase, because it naturally belongs to the
 
 - something like Gradle might be used for making commands nicer and user-friendly, with less parameters
 - to make input and output nicer than bare PHP. Symfony library might help
-- tests of the application are completely missing. No good. 
+- tests of the application are completely missing, but this problem is compensated in the library, which is completely covered by tests 
